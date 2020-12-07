@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    /* Main axis */
+    justify-content: space-around; 
+    /* cross axis */
+    align-items: center;
+    /* align-items 는 영향을 안 주는 이유는 부모box가 자식 box과 크기가 같기 때문 */
+    height: 100vh;
+}
+
+.box {
+    background-color: peru;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
