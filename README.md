@@ -28,21 +28,21 @@
 - [x] align-items
 - [x] justify-content
 - [x] align-content
-- [ ] grid-auto-columns
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
-- [ ] justify-self
-- [ ] align-self
+- [x] grid-auto-columns
+- [x] grid-auto-rows
+- [x] grid-auto-flow
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
+- [x] justify-self
+- [x] align-self
 
 ### Keywords & Functions:
 
-- [ ] repeat
+- [x] repeat
 - [ ] min-content
 - [ ] max-content
 - [ ] minmax
