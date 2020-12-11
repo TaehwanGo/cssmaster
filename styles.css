@@ -7,11 +7,17 @@ body {
     display: grid;
     gap: 5px;
     height: 50vh;
-    /* grid-template-columns: 1fr; */
-    grid-template-rows: repeat(10, 100px);
     justify-content: start;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(100px, 1fr);
+    /* grid-template-columns: repeat(5, 100px); */
+    grid-template-rows: 100px;
+}
+
+.grid:nth-child(1) {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.grid:nth-child(2) {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .item:nth-child(odd) {
