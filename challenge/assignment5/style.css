@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: wheat;
+}
+
+.page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.a-1 {
+    background-color: #BFBDA7;
+}
+
+.a-2 {
+    background-image: url(https://ii1.pepperfry.com/media/catalog/product/e/a/568x625/eames-replica-iconic-chair-in-white-colour-by-star-india-eames-replica-iconic-chair-in-white-colour--2ew10r.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.a-3 {
+    background-color: #FE4814;
+}
+
+.a-4 {
+    background-image: url(https://pgnqdrjultom1827145.cdn.ntruss.com/img/a6/33/a633d191b184106135029bee652b5edb1a6e65cdd75fc4ff15a08a91f1cba0fc_v1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.a-5 {
+    background-color: #847E96;
+}
+
+.a-6 {
+    background-color: #D0FF71;
+}
+
+.b-1 {
+    background-color: #993433;
+}
+
+.b-2 {
+    background-color: #4AB0FA;
+}
+
+.b-3 {
+    background-image: url(https://lh3.googleusercontent.com/proxy/BVzeB1pH0TFrH6VGlvbesHx4T1bMieD0aNfajzlVe1S0dPqXJ52HvpnE-9BW6kgNpxu22TdvlftflU02Y3YHu66Fi2pMuvFQEpjZ2MnGMO9nyQ);
+    background-size: cover;
+    background-position: center;
+}
+
+.b-4 {
+    background-color: #41907A;
+}
+
+.b-5 {
+    background-image: url(https://c.wallhere.com/photos/3d/3f/water_drops-121858.jpg!d);
+    background-size: cover;
+    background-position: center;
+}
+
+.b-6 {
+    background-color: #E3C4E5;
+}
