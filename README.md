@@ -43,15 +43,15 @@
 ### Keywords & Functions:
 
 - [x] repeat
-- [ ] min-content
-- [ ] max-content
-- [ ] minmax
-- [ ] auto-fit
-- [ ] auto-fill
+- [x] min-content
+- [x] max-content
+- [x] minmax
+- [x] auto-fit
+- [x] auto-fill
 
 ## SCSS:
 
-- [ ] Variables
+- [x] Variables
 - [ ] Nesting
 - [ ] Partials
 - [ ] Mixins

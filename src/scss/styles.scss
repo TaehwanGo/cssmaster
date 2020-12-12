@@ -1,0 +1,30 @@
+@import "_variables";
+@import "_mixins.scss";
+
+body {
+  background-color : #444444;
+}
+
+h2 {
+  color: white;
+}
+
+.box {
+  margin-top: 20px;
+  h2 {
+    color: greenyellow;
+  }
+  &:hover {
+    background-color: grey;
+  }
+}
+
+a {
+  &:nth-child(odd) {
+    @include link("odd", red);
+  }
+  &:nth-child(even) {
+    @include link("even", white);
+  }
+}
+
